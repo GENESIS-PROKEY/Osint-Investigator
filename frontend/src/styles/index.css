@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cyber-darker text-cyber-gray font-mono;
+  }
+}
+
+@layer components {
+  .btn-cyber {
+    @apply px-6 py-3 border-2 border-cyber-cyan text-cyber-cyan 
+           hover:bg-cyber-cyan hover:text-cyber-darker transition-all 
+           font-tech tracking-wider;
+  }
+  
+  .input-cyber {
+    @apply bg-cyber-dark-gray border-2 border-cyber-cyan text-cyber-cyan 
+           px-4 py-2 focus:outline-none focus:shadow-cyber 
+           placeholder-cyber-dark-cyan;
+  }
+  
+  .glitch-effect {
+    @apply relative;
+  }
+  
+  .glitch-effect::before,
+  .glitch-effect::after {
+    content: attr(data-text);
+    @apply absolute top-0 left-0 w-full h-full;
+  }
+  
+  .glitch-effect::before {
+    @apply text-cyber-orange animate-pulse;
+    clip-path: inset(0 0 0 0);
+  }
+  
+  .cyber-border {
+    @apply border-2 border-cyber-cyan shadow-cyber;
+  }
+}
