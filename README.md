@@ -7,7 +7,7 @@ A full-stack OSINT (Open-Source Intelligence) investigation platform with a cybe
 - **High-Speed Search**: Elasticsearch-powered search across multiple data types (emails, phones, usernames, vehicles, UPI IDs)
 - **Cyberpunk UI**: Futuristic, hacking-themed interface with mini-game loading screens
 - **Freemium Model**: Free tier with paid subscription options (₹0, ₹2,000, ₹5,000, ₹10,000+)
-- **Multi-Factor Authentication**: Email/password + OAuth (Google, GitHub, Apple) with mini-game challenges
+- **Multi-Factor Authentication**: Email/password
 - **Admin Panel**: Data upload, user management, analytics, and enterprise team control
 - **Step-by-Step Results**: Animated search results display by data type
 
